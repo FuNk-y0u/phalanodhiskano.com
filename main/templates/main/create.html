@@ -1,0 +1,11 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<center>
+  <h1>Create Your Own List!</h1>
+  <form method="post" action="/create/">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" name="save">+ create new</button>
+  </form>
+</center>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<h1>{{tlist.name}}</h1><h3 style = "color:grey">List id: #{{id}}</h3>
+<h3 style ="color:#8052ff">By {{tlist.by_name}}</h3>
+<h4>
+  LIST:
+  LIST NAME | STATUS
+    {% for item in  tlist.item_set.all %}
+      {% if item.complete == True %}
+        <li style="color:green">{{item.text}}. completed!</li>
+      {% else %}
+        <li style = "color:red">{{item.text}}. incomplete!</li>
+      {% endif %}
+    {% endfor %}
+</h4>
+{% endblock %}
