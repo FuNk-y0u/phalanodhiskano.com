@@ -1,7 +1,7 @@
 # phalanodhiskano.com
 Building phalanodhiskano.com with django and python
 
-  How To Run?<br>
+  # How To Run?<br>
   Use The Makefile to run it! Here Are some commands!
   | command          | action                          |
   | --- | --- |
