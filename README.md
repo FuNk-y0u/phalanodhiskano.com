@@ -18,6 +18,15 @@ Building phalanodhiskano.com with django and python
   ```
   
   ![image not load? click me!](https://i.imgur.com/N0aZmdz.png)
+  
+  # Different Pages
+  Just Write The Link Below After Running Server
+  | URL        | PAGE                          |
+  | --- | --- |
+  | `https://127.0.0.1/`         | Home Page                 |
+  | `https://127.0.0.1/admin`   | Admin Page     |
+  | `https://127.0.0.1/id/[your list id]`    | Displays The List      |
+  | `https://127.0.0.1/create`   | Create List Page   |
 
-Currently! Development! Please Check Back Later)))
+Currently! in Development! Please Check Back Later)))
 
